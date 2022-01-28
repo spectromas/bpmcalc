@@ -2,6 +2,9 @@
 A bash script to calculate musical fractions of a bpm
 Add this to your $path and type `bpm` into a terminal. You will be asked for a bpm and it will output the fractions useful for manually entering delay, reverb, and compression settings. 
 
+Look at `echo $PATH` for places to save this to, or google how to add a directory to your $PATH if you want it somewhere else. You may need to make the script executable so you can do `cd /path/to/script/` and then `chmod +x bpm`. 
+
+
 Example usage:
 
 ```
