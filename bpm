@@ -1,0 +1,27 @@
+#!/bin/bash
+
+ms=60000
+echo -n "Enter bpm: "
+read bpm
+
+one=$(($ms/$bpm))
+
+echo EVEN
+echo 1/1: $one ms
+echo 1/2 `expr $one / 2` ms
+echo 1/4 `expr $one / 4` ms
+echo 1/6 `expr $one / 6` ms
+echo 1/8 `expr $one / 8` ms
+echo 1/10 `expr $one / 10` ms
+echo 1/12 `expr $one / 12` ms
+echo 1/14 `expr $one / 14` ms
+echo 1/16 `expr $one / 16` ms
+
+echo ODD
+echo 1/3 `expr $one / 3` ms
+echo 1/5 `expr $one / 5` ms
+echo 1/7 `expr $one / 7` ms
+echo 1/9 `expr $one / 9` ms
+echo 1/11 `expr $one / 11` ms
+echo 1/13 `expr $one / 13` ms
+echo 1/15 `expr $one / 15` ms
